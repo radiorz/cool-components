@@ -1,0 +1,18 @@
+{
+  "name": "docs",
+  "version": "1.0.1",
+  "private": true,
+  "description": "文档",
+  "author": "meeyi",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vuepress dev . --temp .temp",
+    "build": "vuepress build . --temp .temp",
+    "help": "vuepress --help",
+    "info": "vuepress info",
+    "ncu": "npm-check-updates -u"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}

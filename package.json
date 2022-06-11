@@ -1,0 +1,29 @@
+{
+  "name": "lerna-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "docs"
+    ]
+  },
+  "scripts": {
+    "boot": "lerna bootstrap",
+    "patch": "lerna version patch --conventional-commits --yes",
+    "dev": "yarn workspace <packagename> dev",
+    "docs": "yarn workspace docs dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:radiorz/lerna-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  }
+}
