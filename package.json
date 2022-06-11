@@ -15,6 +15,8 @@
     "patch": "lerna version patch --conventional-commits --yes",
     "ccv:dev": "yarn workspace cool-components-vue dev",
     "ccv:build": "yarn workspace cool-components-vue build",
+    "ccvd:dev": "yarn workspace cool-components-vue-docs dev",
+    "ccvd:build": "yarn workspace cool-components-vue-docs build",
     "docs": "yarn workspace docs dev"
   },
   "repository": {
