@@ -13,7 +13,8 @@
   "scripts": {
     "boot": "lerna bootstrap",
     "patch": "lerna version patch --conventional-commits --yes",
-    "dev": "yarn workspace <packagename> dev",
+    "ccv:dev": "yarn workspace cool-components-vue dev",
+    "ccv:build": "yarn workspace cool-components-vue build",
     "docs": "yarn workspace docs dev"
   },
   "repository": {
