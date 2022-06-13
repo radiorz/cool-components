@@ -6,19 +6,24 @@
 -->
 
 <script>
-  export default {
-    name: "TheTime"
-  };
+export default {
+  name: "TheTime",
+};
 </script>
 <script setup>
-
+import { ref, onMounted } from "vue";
+let time = ref(new Date());
+onMounted(() => {
+  setInterval(() => {
+    time.value = new Date();
+  }, 1000);
+});
 </script>
 
 <template>
-  <div class="the-time">
+  <div class="the-time bg-slate-500">
+    {{ time }}
   </div>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

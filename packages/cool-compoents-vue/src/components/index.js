@@ -1,1 +1,3 @@
-export {default as Time }from './Time/index.vue'
+import "~/assets/tailwind.css";
+
+export { default as Time } from "./time";
