@@ -19,7 +19,7 @@
     "autoprefixer": "^10",
     "unplugin-auto-import": "^0.9.1",
     "unplugin-icons": "^0.14.3",
-    "unplugin-vue-components": "^0.20.1",
+    "unplugin-vue-components": "^0.22.1",
     "vite": "^2.9.7"
   }
 }
